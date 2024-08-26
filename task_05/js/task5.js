@@ -21,7 +21,7 @@ if (confirm("Почати тестування?")) {
    // Отримуємо середній бал
    function getAverageGrade(arr) {
       let sumGrades = 0
-      for (let i = 0; i < arr.length; i++) {
+      for (let i = 1; i < arr.length; i++) {
          const grade = arr[i];
          sumGrades += grade
       }
